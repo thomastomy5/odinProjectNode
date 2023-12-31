@@ -10,6 +10,10 @@ novelRouter.get('/author', (req, res)=>{
     res.send('author')
 })
 
+novelRouter.get('/place', (req, res)=>{
+    res.send('place')
+})
+
 novelRouter.get('/:id', (req, res)=>{
     res.send(req.params.id)
 })
